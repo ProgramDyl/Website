@@ -22,7 +22,7 @@ body, html{
 .bgimage {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     background: url('img/BostonCityScape.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ body, html{
     margin-bottom: 0%;
     margin-right: 0%;
     background-color: #FFFF66;
-    height: fit-content;
+    height: 16vh;
 }
 
 h2 {
@@ -151,12 +151,19 @@ h2 {
 
 
 /* <<<  S O C I A L   M E D I A >>>  */
+
+
 .socialmediasection {
     display: flex; 
     flex-direction: column;
     background-color: seagreen;
     background: url('img/lightleaves.jpg'); 
 } 
+
+.socialbox {
+    height: fit-content;
+}
+
 
 h1.socialmedia {
     color: 2px solid black;
@@ -206,14 +213,11 @@ h1.socialmedia {
 
 .sociallogo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    flex-direction: row;
+    justify-content: f;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
-
-
 
 
 .arrow {
@@ -222,10 +226,10 @@ h1.socialmedia {
     position: relative;
     right: 0;
     left: 50vw;
-    top: 1vh;
+    top: -2vh;
     margin: auto;
-    width: 40px;
-    height: 40px;
+    width: 5vh;
+    height: 5vh;
     transition: transform .5s;
     transform: translateY(14px);
     transform-origin: bottom;
@@ -628,6 +632,12 @@ hr{
 } 
 
 
+h1 {
+    font-family: 'lato', sans-serif;
+    font-size: 5vh;
+    font-style:italic;
+
+}
 
 h3 {
     color: 10px solid white;
@@ -934,13 +944,14 @@ input {
     margin-bottom: 2.25%;
     margin-left: 1%; 
     font-style: italic; 
+    height:fit-content;
 }
 
 .missionstatementdesc {
     padding-left: 14%;
     padding-bottom:0;
     font-size: 20px;
-    
+    min-height: fit-content;
 }
 
 .skills { 
@@ -1282,11 +1293,10 @@ img.carinmaze {
     border-style:groove;
     border-color: #ccc;
     background-color: #525252;
-    padding: 4%;
-    margin-top: 1rem;
-    
-    width: 60vw;
-    height: 38vh;
+    display: block;
+    margin: 20dvh;
+    min-width: 60vw;
+    min-height: 38vh;
     display: flex;
     flex-direction: column; 
     margin-left: 15vw;
@@ -1307,10 +1317,11 @@ img.carinmaze {
     justify-content: center;
     inline-size: none; 
     height:fit-content;
+    padding: 10vh;
 }
 
 .contacttitle {
-    display: flex;
+    display: block;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     align-items: center;
@@ -1322,11 +1333,12 @@ img.carinmaze {
     font-size: 60%;
     text-transform: uppercase;
     background-color: antiquewhite;
-    border-radius: 10vh;
-    width: 10vh;
-    height: 5vh;
+    border-radius: 20vh;
+    min-width: 10vh;
+    min-height: 10vh;
     color: grey;
     text-shadow: 2px 2px black;
+    padding: 20px 10px;
     
 }
 

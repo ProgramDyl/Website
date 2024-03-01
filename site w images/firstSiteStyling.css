@@ -1,0 +1,1356 @@
+
+    
+/* GLOBAL CSS STYLES -- NOTE: MEDIA QUERIES ARE AT THE BOTTOM OF THE PAGE  */
+
+body, html{
+    display: flex; 
+    flex-direction: column;
+    color: black;
+    background-color: #333;  
+    max-width: 100%;  
+    margin: 0%;
+    } 
+
+.dark-mode {
+    background-color: black;
+    color:antiquewhite;
+}
+
+
+
+
+.bgimage {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background: url('img/BostonCityScape.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+} 
+
+    
+.bgtext {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: antiquewhite;
+    font-weight: bold;
+    border: 3px solid antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+  /* NAVIGATION BAR  */
+  
+
+  .nav {
+    background-color:transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    
+    }
+    
+.nav a {
+    float: left;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 25px;
+    }
+    
+.nav a:hover {
+    background-color: #ddd;
+    border-radius: 20vh;
+    color: black;
+    }
+
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    }
+
+.hero-text {
+    display: inline-flex; 
+    flex-direction: column;
+    position: center; 
+
+    /* font-size: 20%;  */
+}
+
+
+/* << MISSION STATEMENT SECTION >>  */
+
+
+.textsupport {
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: fit-content;
+    width: fit-content;
+}
+
+.mission-statement {
+    font-size: 3rem;
+    font-family: lato;
+    text-transform: uppercase;
+    margin-right: 0;
+    margin-bottom: 1vh;
+    margin-left: 1vh; 
+    font-style: italic; 
+}
+
+.missionstatementdesc {
+    padding-left: 20vw;
+    padding-bottom:0;
+    font-size: 27px;
+    
+}
+
+.intro{
+    display: flexbox;
+    font-family: lato; 
+    font-weight: bold; 
+    color: black;
+    max-width: 100%; 
+    position: relative; 
+    margin-top: 0%; 
+    margin-bottom: 0%;
+    margin-right: 0%;
+    background-color: #FFFF66;
+    height: fit-content;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column; 
+    background-color: transparent;
+    /* height: 75px; */
+    margin: 0%;
+    padding: 0%;
+    align-self: center;
+    justify-content: center;  
+    font-size: 50px;
+
+}
+
+
+
+
+/* <<<  S O C I A L   M E D I A >>>  */
+.socialmediasection {
+    display: flex; 
+    flex-direction: column;
+    background-color: seagreen;
+    background: url('img/lightleaves.jpg'); 
+} 
+
+h1.socialmedia {
+    color: 2px solid black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    left: 60%;
+}
+
+/* socials */
+#instagram {
+    height: 50px;
+    width: 50px; 
+    padding-left: 1.0rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    color: antiquewhite;
+}  
+
+#youtube {
+    height: 50px;
+    width: 60px;  
+    padding-left: 1.0rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+} 
+
+#linkedin {
+    height: 50px;
+    width: 50px; 
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 1.0rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+} 
+
+#github {
+    height: 50px;
+    width: 50px; 
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 1.0rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+}
+
+.sociallogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
+
+
+.arrow {
+    white-space: nowrap;
+    font-size: 4rem;
+    position: relative;
+    right: 0;
+    left: 50vw;
+    top: 1vh;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    transition: transform .5s;
+    transform: translateY(14px);
+    transform-origin: bottom;
+    -webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	border-radius:50%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+.arrow::after {
+    transform: translateX(-50%);
+}
+
+
+
+
+/*   <<< ABOUT ME PAGE >>> */
+
+.flex-container-aboutme {
+    display: flex;
+}
+
+.headshotborder {
+    display:flex;
+    flex-direction: column;
+    height: 94vh;
+    background: seashell;
+}
+
+#headshot {
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-40%, -50%);
+    border: antiquewhite;
+    width: 30%;
+    max-height: 100%;
+    margin-top: 5%;
+    transform: rotate(-90deg);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+.aboutmetext {
+    display: flex;
+    flex-direction: column;
+    font-family: 'lato';
+    font-family: lato;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-top: 10vh;
+    /* padding-left: 10%; */
+    height: 500px;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 62px;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+/* BIG FONT- opening paragraph */
+#aboutmedesc {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    font-size: 35px;
+    width: fit-content;
+    padding-left: 50vw;
+    padding-right: 5vw;
+}
+
+
+
+
+/* Small font - secondary paragraphs */
+#aboutmedesc1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left: 50vw;
+    margin-top: 10vh;
+    
+}
+
+.linebreak {
+    border-left: 4px solid black;
+    position: absolute;
+    top: 60%;
+    left: 95%;
+}
+
+/* History Section  */ 
+
+.historysection {
+    height: 4;
+    background-color: seashell;
+    background: url(img/psychedelic-waterfall-sunset-rainbow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.historyheader {
+    font-family: "Paytone One";
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 10%;
+    color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+    font-family: "Paytone One";
+    color: antiquewhite;
+
+}
+
+
+.overlay a {
+    
+    padding: 0.4rem;
+    text-decoration: none;
+    font-size: 24px;
+    color: 2px solid black;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3); 
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+color: #818181;
+}
+
+#hamburger {
+    color: white;
+    padding: 3%;
+    border: 6px solid black;
+    border-radius: 20vh;
+    background: url(img/Surreal3Dbackground.png);
+    background-position: center;
+    width: fit-content;
+}
+
+img.carinmaze {
+    border-radius:45vh;
+    height: 15rem;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-height: 450px) {
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}
+}
+
+  
+  
+
+
+
+
+
+
+/* PAGE BREAK LINE */
+hr{
+    height: 1vh;
+    width: 100%;
+    border-width: 0;
+    color: gray;
+    background-color: black;
+    display: block; 
+    margin: 0; 
+}
+
+
+
+
+.first-page-end {
+    height: 10px; 
+    display: inline-block;
+}
+
+
+/* RESUME  */
+
+.Resume{
+    max-width: 100%;
+    background: darkgreen;
+    margin-top: 100px; 
+    margin-bottom: 0%; 
+    height: 500px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#resumedownload {
+    background-color: red;
+    border: 5px;
+}
+
+
+.pdfobject-container {
+    height: 50vh;
+    width: 50vw;
+
+}
+
+
+
+
+
+.full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+    }
+
+
+.first-name {
+    font-weight: 700;
+    color:black; 
+}
+
+
+.last-name {
+    font-weight: 10; 
+    color: black;
+}
+
+
+.contact-info {
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.email .phone {
+    color:black;
+    font-weight: 300;
+}
+
+
+
+
+
+
+        /* <<<   S   K   I   L   L   Z   >>>  */ 
+
+.skills {
+    background-color: #FFFF66;
+    /* max-height:110vh; 
+    display: flex;
+    flex-direction: column; */
+    
+}
+
+.inner {
+    padding-top: 20px;
+}
+
+.header { 
+    text-align: center;
+    color: black; 
+    font-weight: 900;
+    padding: 1rem;
+    position: relative; 
+    background-color: #FFFF66;
+    /* max-width: 100%;
+    width: 100%;  */
+    margin-left: 0%;  
+    padding-left: 0%;
+}
+
+.header::after {
+    /* content: ''; */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    max-width: 100%;
+    background-color: #333;
+}
+
+.skillscontainer {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem; 
+    background-color: #FFFF66;
+        
+}
+
+
+
+
+        /* << SKILL ANIMATION >>  */
+
+
+
+.skill-box {
+    padding: 1rem;
+    color: #ccc;
+    cursor: pointer;
+    border-radius: 30vh;
+    /* transition: transform 1s;
+    transform-origin: bottom; */
+}
+
+
+.skill-box:hover {
+    background-color: #ffb366; 
+    border-radius: 50%;
+    /* transform: translateY(-50px);
+    transition: transform 1s;  */
+} 
+
+
+
+h3 {
+    color: 10px solid white;
+    font-family: 'Lato', sans-serif;
+}
+h5 {
+    color:antiquewhite;
+    text-decoration:underline;
+    text-decoration-skip-ink: auto;
+    font-style: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+h6 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    max-width: fit-content;
+
+}
+
+.skill-title {
+    color: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+
+.img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 100%;
+    background-color: #eee; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+    transform-origin: bottom;
+}
+
+.img:hover {
+    transform: translateY(-35px);
+    transition: transform 1s; 
+
+}
+
+#html5 {
+    height: 130px;
+    width: 130px;
+}
+
+
+#css3 {
+    height: 120px;
+    width: 110px;
+}
+
+#java{
+    height: 130px;
+    width: 130px;
+}
+
+
+.img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background: rgba(100, 100, 100 0.5);  
+}
+
+
+.skill-icon {
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
+
+
+.skill-title h3 {
+    color: #525252;
+    margin: 0.5rem; 
+}
+
+
+
+
+
+
+
+    /* <<< B  U  T  T  O  N  S */
+
+#btn {
+    width: 100%;
+    align-items: center; 
+    text-decoration: none;
+    height: 50px;
+    width: 50px; 
+    padding-bottom: 20px;
+    border-radius: 15px; 
+    } 
+    
+.btn {
+    background-color: dodgerblue;
+    border: none;
+    color: antiquewhite;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 15px; 
+    } 
+
+.btn:hover {
+    background-color: royalblue; 
+    } 
+
+
+    
+
+
+
+/* <<< C  O  N  T  A  C  T >>> */
+
+
+/* C O N T A C T   F O R M  */
+#contact-form {
+    border-radius: 1vh;
+    border-style:groove;
+    border-color: #ccc;
+    margin-top: 0;
+    padding: 15px;
+    width:max-content;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 5rem;
+    margin-bottom: 10vh;
+    background-color: antiquewhite;
+    box-shadow: black;
+    }
+
+#contactbg {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    background-image: url('img/mailbox-enFrancais.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    background-size:auto;
+    align-items: first baseline;
+    justify-content: center;
+    inline-size: none; 
+    height: 80vh;
+}
+
+label {
+    padding: 15px;
+    font-weight: bold;
+}
+
+input {
+    padding: 15px;
+
+}
+.contacttitle {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
+    padding: 1.5rem;
+    margin-top: 20%;
+    font-size: 60%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    background-color: antiquewhite;
+    border-radius: 20vh;
+    width: 10vh;
+    height: 8vh;
+    color: grey;
+    text-shadow: 2px 2px black;
+    
+}
+
+#contact-form {
+    border-radius: 1vh;
+    border-style:groove;
+    font-family: 'Lato', sans-serif;
+    border-color: #ccc;
+    background-color: #525252;
+    margin-top: 0;
+    width: 18vw; 
+    display: flex;
+    flex-direction: column; 
+    margin-left: 50px;
+    margin-bottom: 20%;
+    background-color: #e3e30b;
+    }
+
+
+#subject {
+    max-height: 10vh;
+    font-family: 'Lato', sans-serif;
+}
+    input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    }
+
+    input[type=submit] {
+    background-color: #04AA6D;
+    color: antiquewhite;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #4f6b50;
+    }
+
+
+
+    /* <<< F  O  O  T  E  R >>>  */
+
+.footer {
+    display: flex; 
+    flex-direction: column;
+    background-color:antiquewhite;
+    background: url(img/red\ dual.jpg); 
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+    font-weight: 100; 
+    margin: 0%; 
+    border-radius: 0%; 
+    border-color: solid black; 
+    
+
+    }
+
+#homeNav {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFF66;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+
+
+#btn {
+    max-width: 12%;
+    align-self: center;
+    
+}
+
+.copyright {
+    margin-left: 50vw; 
+    background-color: #FFFF66
+    }
+
+
+    
+
+
+/* << M  O  B  I  L  E      V  E  R  S  I  O  N >> */
+
+@media screen and (max-width: 480px) {
+
+/* << MISSION STATEMENT SECTION >>  */
+
+
+.textsupport {
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.mission-statement {
+    font-size: 35px;
+    font-family: lato;
+    text-transform: uppercase;
+    margin-right: 0;
+    margin-bottom: 2.25%;
+    margin-left: 1%; 
+    font-style: italic; 
+}
+
+.missionstatementdesc {
+    padding-left: 14%;
+    padding-bottom:0;
+    font-size: 20px;
+    
+}
+
+.skills { 
+    background-color: #FFFF66;
+    max-height: 110vh; 
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    margin-top: 0%;
+    
+}
+
+
+
+.resumeheader {
+    flex-direction: column;
+    text-align: center;
+    color: black; 
+    padding: 1rem;
+    position: relative; 
+    background-color: #FFFF66;
+    /* max-width: 100%;
+    width: 100%;  */
+    margin-left: 0%;  
+    padding-left: 0%;
+    margin-bottom: 0%
+}
+
+
+.header::after {
+    /* content: ''; */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    max-width: 100%;
+    background-color: #ffb366;
+} 
+
+.skillscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    /* grid-gap: 1rem; 
+    padding: 1rem 80px; */
+    font-size: 1.2rem; 
+    background-color: #FFFF66;
+    /* max-width: 100%;
+    min-width: 100%;  */
+}
+
+
+
+        /* << SKILL ANIMATION >>  */
+
+
+
+.skill-box {
+    padding: 1rem;
+    color: #525252;
+    cursor: pointer;
+    border-radius: 15vh;
+    transition: transform 1s;
+    transform-origin: bottom; 
+}
+
+
+.skill-box:hover {
+    background: url(img/watercolourField.png);
+    filter: blur(6);
+    border-radius: 120;
+    transform: translateY(-50px);
+    transition: transform 1s;  
+}  
+
+
+
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+ /* Skill icons  */
+.img {
+    width: 13vh;
+    height: 13vh;
+    position: relative;
+    border-radius: 100%;
+    background-color: #eee; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+    transform-origin: bottom;
+}
+
+.img:hover {
+    transform: translateY(-35px);
+    transition: transform 1s; 
+
+}
+
+#html5 {
+    height: 75%;
+    width: 85%;
+}
+
+
+#css3 {
+    height: 75%;
+    width: 60%;
+}
+
+#python {
+    height: 75%;
+    width: 60%;
+}
+#java{
+    height: 70%;
+    width: 37%;
+}
+    
+    
+   /* hover rule - skills  */
+.img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background: rgba(100, 100, 100 0.5);  
+}
+
+
+.skill-icon {
+    width: 75%;
+    height: 80%;
+    z-index: 2;
+}
+
+
+.skill-title h3 {
+    color: #525252;
+    margin: 0.5rem; 
+    }
+
+
+ /* << ABOUT ME SECTION MOBILE >> */
+
+ .flex-container-aboutme {
+    display: flex;
+}
+
+.headshotborder {
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+    background: seashell;
+}
+
+#headshot {
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    transform: translate(-40%, -50%);
+    border: antiquewhite;
+    width: 45%;
+    max-height: 100%;
+    margin-top: 5%;
+    transform: rotate(-90deg);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+.aboutmetext {
+    display: flex;
+    flex-direction: column;
+    font-family: 'lato';
+    font-family: lato;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-top: 5vh;
+    /* padding-left: 10%; */
+    height: 1rem;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 62px;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+/* BIG FONT- opening paragraph */
+#aboutmedesc {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    font-size: 24px;
+    width: fit-content;
+    padding-left: 50vw;
+    padding-right: 5vw;
+}
+
+
+
+
+/* Small font - secondary paragraphs */
+#aboutmedesc1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    
+}
+
+.linebreak {
+    border-left: 4px solid black;
+    position: absolute;
+    top: 60%;
+    left: 95%;
+}
+
+/* About me footer (not actually a history section)  */
+
+.historysection {
+    height: 4;
+    background-color: seashell;
+    background: url(img/psychedelic-waterfall-sunset-rainbow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.historyheader {
+    font-family: "Paytone One";
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 10%;
+    color: white;
+}
+
+
+ /* About me swipe Overlay  */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    text-align: center;
+    font-family: "Paytone One";
+    color: antiquewhite;
+
+}
+
+
+.overlay a {
+    
+    padding: 1vh;
+    text-decoration: none;
+    font-size: 36px;
+    color: #525252;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+#hamburger {
+    color: white;
+    padding: 3%;
+    border: 6px solid black;
+    border-radius: 20vh;
+    background: url(img/Surreal3Dbackground.png);
+    background-position: center;
+    width: fit-content;
+}
+
+img.carinmaze {
+    border-radius:45vh;
+    height: 15rem;
+}
+
+
+/* C O N T A C T   F O R M  */
+#contact-form {
+    border-radius: 1vh;
+    border-style:groove;
+    border-color: #ccc;
+    background-color: #525252;
+    padding: 4%;
+    margin-top: 1rem;
+    
+    width: 60vw;
+    height: 38vh;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 15vw;
+    margin-bottom: 4vh;
+    background-color: #999;
+    box-shadow: black;
+    }
+
+#contactbg {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    background-image: url('img/hamilton.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: first baseline;
+    justify-content: center;
+    inline-size: none; 
+    height:fit-content;
+}
+
+.contacttitle {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
+    padding: 2rem;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    font-size: 60%;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    border-radius: 10vh;
+    width: 10vh;
+    height: 5vh;
+    color: grey;
+    text-shadow: 2px 2px black;
+    
+}
+
+.footer {
+    display: flex; 
+    flex-direction: column;
+    background-color:antiquewhite;
+    background: url(img/red\ dual.jpg); 
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    justify-content: center;  
+    font-weight: 100; 
+    margin-top: 0; 
+    border-radius: 0%; 
+    border-color: solid black; 
+    
+
+    }
+
+/* END OF MOBILE MEDIA Q  */
+}
+        
+    
+    
+    
+    

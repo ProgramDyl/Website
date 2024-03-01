@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Paytone+One">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <script src="jsconfig.js"></script>                
+    <link rel="stylesheet" href="firstSiteStyling.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <div class="about">
+        <div class="headshotborder">
+            <img id="headshot" src="img/artsydyl.png" alt="headshot of me">
+            <div class="linebreak">
+            </div>
+            <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+            </span>
+                    <div class="full-name">
+                        <span class="first-name">About</span>
+                        <span class="last-name">Me</span>
+                        <p id="aboutmedesc"> 
+                            I'm Dylan, currently enrolled at Nova Scotia Community College for
+                            IT Programming<br>
+                        </p>
+                        <p id="aboutmedesc1">
+                            I've spent the past 10+ years working across different areas of music<br>in the Toronto area. I play guitar, bass, and drums.<br><br><br><br><br>
+                            These days my time is spent researching, studying, coding, and sleeping.<br><br><br><br><br>
+                            Outside of work you can typically find me out in nature, spending<br>time with my partner, or gaming.
+                        </p> 
+                    </div>
+        </div> 
+    </div>
+    <hr>
+ <!-- HISTORY - ABOUT ME   -->
+    <section class="historysection">
+        <div class="historyheader">
+            <h1>A brief history 
+
+            </h1>
+        </div>
+            <div class="history">
+
+            </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <p>
+                    I have always had an interest in having fun. Enjoying<br>myself at all times has been my obsession for as long as I<br>can remember. Being creative and feeling free is usually a<br>cheatcode for enjoying myself. When I was very young, I would<br>draw cartoon characters and give them voices. I made short comic strips,<br>and was constantly trying to make people around me laugh.<br><br><br> A little later, after my Mom tried (and soon put down) the guitar, I decided I would<br>try it out. This was a moment that would eventually lead me to Berklee<br>College of Music for guitar. I had private instruction under Tomo<br>Fujita (James Valentine, John Mayer), and gained so much perspective<br> of perspective and life experience. While there I made lifelong<br>friendships.<br><br><br>My interest in technology and problem-solving has been<br>a constant in my life. I've an avid video-game player and, as with<br>all my hobbies, I need to know *everything* about it. Basically<br>programming, to me, is an artform and I am so<br>excited to continue my journey.<br><br><br>
+                </p>
+                <div class="overlayimg">
+                    <img class="carinmaze" src="img/CarInMaze.png" alt="A colourful, surreal 3D background">
+                </div>
+
+                <button class="btn"><i class="fa fa-home"></i><a style="text-decoration: none;" class="active" href="index.html" target="_self">Home</a></button>
+            </div>
+        </div>
+            
+            <script>
+            function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+    </section> 
+</body>
+</html>

@@ -171,7 +171,8 @@ h1.socialmedia {
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
     position: absolute;
-    left: 60%;
+    left: 60%; 
+    margin-top: 0;
 }
 
 /* socials */

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!-- <!DOCTYPE html> 
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,13 +17,13 @@
 <body>
 
         <!-- Hero Section --> 
-    <div class="bgimage" id="home">
+    <div class="bgimage" id="home"> -->
         
 
         
 
 
-    </div>
+    <!-- </div>
 
     <div class="bgtext">
         <div class="herotext">
@@ -78,11 +78,11 @@
                 
             </div>   
         </div>
-    </div>
+    </div> -->
         
         
         
-        <hr> 
+        <!-- <hr> 
     <div class="skills" id="skills">
                     <div class="header" id="myskills">
                 <h1>Technical Skills</h1>
@@ -155,9 +155,9 @@
         <!-- This button gives an error for nesting a element in button, but i can't find a fix!  -->
         <button class="btn"><i class="fa fa-home"></i><a style="text-decoration: none;" class="active" href="#home">Home</a></button> 
     </div> 
-    <hr>
+    <hr> -->
 
-    <div id="contactbg">
+    <!-- <div id="contactbg">
         <div class="contacttitle">
             <h1>Contact</h1>
         </div>
@@ -198,4 +198,4 @@
 </footer>
 
 </body>
-</html>
+</html> -->

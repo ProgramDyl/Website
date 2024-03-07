@@ -23,7 +23,7 @@ body, html{
 .bgimage {
     display: flex;
     flex-direction: column;
-    height: 82vh;  
+    height: 80vh;  
     background: url('img/BostonCityScape.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body, html{
     margin-bottom: 0%;
     margin-right: 0%;
     background-color: #FFFF66;
-    height: 16vh;
+    height: fit-content;
 }
 
 h2 {
@@ -170,9 +170,9 @@ h1.socialmedia {
     color: 2px solid black;
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
-    position: absolute;
+    position: relative;
     left: 60%; 
-    margin-top: 0;
+    bottom: 0%;
 }
 
 /* socials */
@@ -216,9 +216,9 @@ h1.socialmedia {
 .sociallogo {
     display: flex;
     flex-direction: row;
-    justify-content: f;
-    margin-top: 1vh;
     margin-bottom: 1vh;
+    width: fit-content;
+    height: ;
 }
 
 
@@ -562,10 +562,9 @@ hr{
 
 .skills {
     background-color: #FFFF66;
-    /* max-height:110vh; 
+    max-height: fit-content; 
     display: flex;
-    flex-direction: column; */
-    
+    flex-direction: column;     
 }
 
 .inner {
@@ -659,6 +658,8 @@ h6 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     max-width: fit-content;
+    padding-right: 5%;
+    
 
 }
 
@@ -776,7 +777,7 @@ h6 {
 
 /* C O N T A C T   F O R M  */
 #contact-form {
-    border-radius: 1vh;
+    border-radius: 2vh;
     border-style:groove;
     border-color: #ccc;
     margin-top: 0;
@@ -785,7 +786,7 @@ h6 {
     display: flex;
     flex-direction: column; 
     margin-left: 5rem;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
     background-color: antiquewhite;
     box-shadow: black;
     }
@@ -822,14 +823,14 @@ input {
     font-size: larger;
     padding: 1.5rem;
     margin-top: 20%;
-    font-size: 60%;
+    font-size: 70%;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
     background-color: antiquewhite;
-    border-radius: 20vh;
-    width: 10vh;
-    height: 8vh;
-    color: grey;
+    border-radius: 10vh;
+    width: fit-content;
+    height: fit-content;
+    color: #333;
     text-shadow: 2px 2px black;
     
 }
@@ -841,7 +842,7 @@ input {
     border-color: #ccc;
     background-color: #525252;
     margin-top: 0;
-    width: 18vw; 
+    width: 30vw; 
     display: flex;
     flex-direction: column; 
     margin-left: 50px;
@@ -884,17 +885,16 @@ input {
 
 .footer {
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     background-color:antiquewhite;
     background: url(img/red\ dual.jpg); 
     background-repeat: no-repeat;
     background-position: center top;
-    text-align: center;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;  
     font-weight: 100; 
     margin: 0%; 
-    border-radius: 0%; 
+    border-radius: 2%; 
     border-color: solid black; 
     
 
@@ -905,8 +905,9 @@ input {
     align-items: center;
     justify-content: center;
     background-color: #FFFF66;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
     }
 
 
@@ -922,7 +923,7 @@ input {
     }
 
 
-    
+  
 
 
 /* << M  O  B  I  L  E      V  E  R  S  I  O  N >> */
@@ -931,6 +932,33 @@ input {
 
 /* << MISSION STATEMENT SECTION >>  */
 
+.bgimage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+    background: url('img/BostonCityScape.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+} 
+
+    
+.bgtext {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: antiquewhite;
+    font-weight: bold;
+    border: 3px solid antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 2vh;
+    text-align: center;
+}
 
 .textsupport {
     display:flex;
@@ -953,7 +981,7 @@ input {
     padding-left: 14%;
     padding-bottom:0;
     font-size: 20px;
-    min-height: fit-content;
+    height: fit-content;
 }
 
 .skills { 

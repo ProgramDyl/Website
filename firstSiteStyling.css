@@ -23,7 +23,7 @@ body, html{
 .bgimage {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 82vh;  
     background: url('img/BostonCityScape.jpg'); 
     background-position: center;
     background-repeat: no-repeat;

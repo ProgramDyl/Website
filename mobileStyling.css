@@ -1,0 +1,471 @@
+/* << M  O  B  I  L  E      V  E  R  S  I  O  N >> */
+
+@media screen and (max-width: 480px) {
+
+    /* << MISSION STATEMENT SECTION >>  */
+    
+    .bgimage {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;  
+        background: url('img/BostonCityScape.jpg'); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(6px);
+    } 
+    
+        
+    .bgtext {
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.4);
+        color: antiquewhite;
+        font-weight: bold;
+        border: 3px solid antiquewhite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 50%;
+        padding: 2vh;
+        text-align: center;
+    }
+    
+    .textsupport {
+        display:flex;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    
+    .mission-statement {
+        font-size: 35px;
+        font-family: lato;
+        text-transform: uppercase;
+        margin-right: 0;
+        margin-bottom: 2.25%;
+        margin-left: 1%; 
+        font-style: italic; 
+        height:fit-content;
+    }
+    
+    .missionstatementdesc {
+        padding-left: 14%;
+        padding-bottom:0;
+        font-size: 20px;
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .skills { 
+        background-color: #FFFF66;
+        max-height: 110vh; 
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+        margin-top: 0%;
+        
+    }
+    
+    
+    
+    .resumeheader {
+        flex-direction: column;
+        text-align: center;
+        color: black; 
+        padding: 1rem;
+        position: relative; 
+        background-color: #FFFF66;
+        /* max-width: 100%;
+        width: 100%;  */
+        margin-left: 0%;  
+        padding-left: 0%;
+        margin-bottom: 0%
+    }
+    
+    
+    .header::after {
+        /* content: ''; */
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 4px;
+        max-width: 100%;
+        background-color: #ffb366;
+    } 
+    
+    .skillscontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        /* grid-gap: 1rem; 
+        padding: 1rem 80px; */
+        font-size: 1.2rem; 
+        background-color: #FFFF66;
+        /* max-width: 100%;
+        min-width: 100%;  */
+    }
+    
+    
+    
+            /* << SKILL ANIMATION >>  */
+    
+    
+    
+    .skill-box {
+        padding: 1rem;
+        color: #525252;
+        cursor: pointer;
+        border-radius: 15vh;
+        transition: transform 1s;
+        transform-origin: bottom; 
+    }
+    
+    h1.socialmedia {
+        margin-right: 0%;
+        max-width: fit-content;
+        justify-self: center;
+    }
+    
+    .skill-box:hover {
+        background: url(img/watercolourField.png);
+        filter: blur(6);
+        border-radius: 120;
+        transform: translateY(-50px);
+        transition: transform 1s;  
+    }  
+    
+    
+    
+    .skill-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    
+     /* Skill icons  */
+    .img {
+        width: 13vh;
+        height: 13vh;
+        position: relative;
+        border-radius: 100%;
+        background-color: #eee; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        transition: transform 1s;
+        transform-origin: bottom;
+    }
+    
+    .img:hover {
+        transform: translateY(-35px);
+        transition: transform 1s; 
+    
+    }
+    
+    #html5 {
+        height: 75%;
+        width: 85%;
+    }
+    
+    
+    #css3 {
+        height: 75%;
+        width: 60%;
+    }
+    
+    #python {
+        height: 75%;
+        width: 60%;
+    }
+    #java{
+        height: 70%;
+        width: 37%;
+    }
+        
+        
+       /* hover rule - skills  */
+    .img::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 90px;
+        background: rgba(100, 100, 100 0.5);  
+    }
+    
+    
+    .skill-icon {
+        width: 75%;
+        height: 80%;
+        z-index: 2;
+    }
+    
+    
+    .skill-title h3 {
+        color: #525252;
+        margin: 0.5rem; 
+        }
+    
+    
+     /* << ABOUT ME SECTION MOBILE >> */
+    
+     .flex-container-aboutme {
+        display: flex;
+    }
+    
+    .headshotborder {
+        display:flex;
+        flex-direction: column;
+        height: 90vh;
+        background: seashell;
+    }
+    
+    #headshot {
+        border-radius: 5vh;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 20%;
+        left: 1%;
+        transform: translate(-40%, -50%);
+        border: antiquewhite;
+        width: 45%;
+        max-height: 100%;
+        margin-top: 5%;
+        transform: rotate(-90deg);
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+    
+    
+    .aboutmetext {
+        display: flex;
+        flex-direction: column;
+        font-family: 'lato';
+        font-family: lato;
+        color: antiquewhite;
+        font-weight: 600;
+        margin-top: 5vh;
+        /* padding-left: 10%; */
+        height: 1rem;
+    }
+    
+    .full-name {
+        display: flex;
+        flex-direction: column;
+        font-size: 62px;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+        width: fit-content;
+        height: fit-content;
+        
+    }
+    
+    /* BIG FONT- opening paragraph */
+    #aboutmedesc {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+        font-size: 24px;
+        width: fit-content;
+        padding-left: 50vw;
+        padding-right: 5vw;
+    }
+    
+    
+    
+    
+    /* Small font - secondary paragraphs */
+    #aboutmedesc1 {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: bolder;
+        font-size: 18px;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        margin-left: 4vw;
+        margin-top: 5vh;
+        
+    }
+    
+    .linebreak {
+        border-left: 4px solid black;
+        position: absolute;
+        top: 60%;
+        left: 95%;
+    }
+    
+    /* About me footer (not actually a history section)  */
+    
+    .historysection {
+        height: 4;
+        background-color: seashell;
+        background: url(img/psychedelic-waterfall-sunset-rainbow.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .historyheader {
+        font-family: "Paytone One";
+        font-size: 24px;
+        font-weight: 700;
+        padding-left: 10%;
+        color: white;
+    }
+    
+    
+     /* About me swipe Overlay  */
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      
+    .overlay-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+        text-align: center;
+        font-family: "Paytone One";
+        color: antiquewhite;
+    
+    }
+    
+    
+    .overlay a {
+        
+        padding: 1vh;
+        text-decoration: none;
+        font-size: 36px;
+        color: #525252;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    }
+    
+    #hamburger {
+        color: white;
+        padding: 3%;
+        border: 6px solid black;
+        border-radius: 20vh;
+        background: url(img/Surreal3Dbackground.png);
+        background-position: center;
+        width: fit-content;
+    }
+    
+    img.carinmaze {
+        border-radius:45vh;
+        height: 15rem;
+    }
+    
+    
+    /* C O N T A C T   F O R M  */
+    #contact-form {
+        border-radius: 1vh;
+        border-style:groove;
+        border-color: #ccc;
+        background-color: #525252;
+        display: block;
+        margin: 20dvh;
+        min-width: 60vw;
+        min-height: 38vh;
+        display: flex;
+        flex-direction: column; 
+        margin-left: 15vw;
+        margin-bottom: 4vh;
+        background-color: #999;
+        box-shadow: black;
+        }
+    
+    #contactbg {
+        display: flex;
+        flex-direction: column; 
+        position: relative;
+        background-image: url('img/hamilton.jpg');
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: cover;
+        align-items: first baseline;
+        justify-content: center;
+        inline-size: none; 
+        height:fit-content;
+        padding: 10vh;
+    }
+    
+    .contacttitle {
+        display: block;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        font-weight: 500;
+        font-size: larger;
+        padding: 2rem;
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+        font-size: 60%;
+        text-transform: uppercase;
+        background-color: antiquewhite;
+        border-radius: 20vh;
+        min-width: 10vh;
+        min-height: 10vh;
+        color: grey;
+        text-shadow: 2px 2px black;
+        padding: 20px 10px;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        flex-direction: column;
+        background-color:antiquewhite;
+        background: url(img/red\ dual.jpg); 
+        background-repeat: no-repeat;
+        background-position: center top;
+        text-align: center;
+        justify-content: center;  
+        font-weight: 100; 
+        margin-top: 0; 
+        border-radius: 0%; 
+        border-color: solid black; 
+        
+    
+        }
+    
+    /* END OF MOBILE MEDIA Q  */
+    }

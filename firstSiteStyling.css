@@ -162,7 +162,12 @@ h2 {
 } 
 
 .socialbox {
-    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    min-width: fit-content;
+    min-height: fit-content;
+    
 }
 
 
@@ -218,7 +223,7 @@ h1.socialmedia {
     flex-direction: row;
     margin-bottom: 1vh;
     width: fit-content;
-    height: ;
+    height: fit-content;
 }
 
 
@@ -280,27 +285,25 @@ h1.socialmedia {
 
 .flex-container-aboutme {
     display: flex;
+    height: 30vh;
 }
 
 .headshotborder {
     display:flex;
     flex-direction: column;
-    height: 94vh;
+    height: max-content;
     background: seashell;
 }
 
 #headshot {
     border-radius: 5vh;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate(-40%, -50%);
+    position: center;
+    justify-self: center;
     border: antiquewhite;
-    width: 30%;
-    max-height: 100%;
-    margin-top: 5%;
+    max-width: 33%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 20%;
     transform: rotate(-90deg);
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
@@ -348,14 +351,17 @@ h1.socialmedia {
 /* Small font - secondary paragraphs */
 #aboutmedesc1 {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: whitesmoke;
     font-weight: bolder;
     font-size: 18px;
-    width: fit-content;
-    height: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
     position: relative;
-    margin-left: 50vw;
-    margin-top: 15%;
+    /* background-color: thistle; */
+    filter:opacity(2);
+    border-radius: 6vh;
+    border-color: whitesmoke;
+
     
 }
 
@@ -369,12 +375,13 @@ h1.socialmedia {
 /* History Section  */ 
 
 .historysection {
-    height: 4;
+    min-height: max;
     background-color: seashell;
-    background: url(img/psychedelic-waterfall-sunset-rainbow.png);
+    background: url(img/spiralstairs.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0%;
 }
 
 .historyheader {
@@ -820,7 +827,7 @@ input {
     font-weight: 500;
     font-size: larger;
     padding: 1.5rem;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     font-size: 70%;
     text-transform: uppercase;
     margin-bottom: 2%;

@@ -175,9 +175,10 @@ h1.socialmedia {
     color: 2px solid black;
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
-    position: relative;
+    position: absolute;
     left: 60%; 
     bottom: 0%;
+    margin-left: 5%;
 }
 
 /* socials */
@@ -861,12 +862,13 @@ input {
     background-color: rgba(0,0,0, 0.4);
     color: white;
     font-weight: bold;
+    font-family: 'Lato', sans-serif;
     border: 3px solid antiquewhite;
     position: absolute;
     top: 50%;
     left: 45%;
     margin-bottom: 20%;
-    min-width: fit-content;
+    min-width: max-content;
     text-align: center;
 }
 

@@ -489,7 +489,7 @@ hr{
     color: gray;
     background-color: black;
     display: block; 
-    margin: 0; 
+    margin: 0%; 
 }
 
 
@@ -787,7 +787,7 @@ h6 {
     border-radius: 2vh;
     border-style:groove;
     border-color: #ccc;
-    margin-top: 0;
+    margin-top: 10%;
     padding: 15px;
     width:max-content;
     display: flex;
@@ -809,7 +809,7 @@ h6 {
     align-items: first baseline;
     justify-content: center;
     inline-size: none; 
-    height: fit-content;
+    max-width: fit-content;
 }
 
 label {

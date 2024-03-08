@@ -784,20 +784,24 @@ h6 {
 
 
 /* C O N T A C T   F O R M  */
+
 #contact-form {
-    border-radius: 2vh;
+    border-radius: 1vh;
     border-style:groove;
     border-color: #ccc;
-    margin-top: 0;
-    padding: 15px;
-    width:max-content;
+    background-color: #525252;
+    display: block;
+    margin: 20dvh;
+    min-width: 60vw;
+    min-height: 38vh;
     display: flex;
     flex-direction: column; 
-    margin-left: 5rem;
-    margin-bottom: 8vh;
-    background-color: antiquewhite;
+    margin-left: 15vw;
+    margin-bottom: 4vh;
+    background-color: #999;
     box-shadow: black;
     }
+    
 
 #contactbg {
     display: flex;

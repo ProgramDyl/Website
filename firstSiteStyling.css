@@ -159,6 +159,7 @@ h2 {
     flex-direction: column;
     background-color: seagreen;
     background: url('img/lightleaves.jpg'); 
+    align-items: center;
 } 
 
 .socialbox {

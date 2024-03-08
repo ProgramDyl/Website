@@ -23,7 +23,7 @@ body, html{
 .bgimage {
     display: flex;
     flex-direction: column;
-    height: 80vh;  
+    height: 60vh;  
     background: url('img/BostonCityScape.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body, html{
     color: antiquewhite;
     font-weight: bold;
     border: 3px solid antiquewhite;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -807,7 +807,7 @@ h6 {
     align-items: first baseline;
     justify-content: center;
     inline-size: none; 
-    height: 80vh;
+    height: fit-content;
 }
 
 label {
@@ -827,7 +827,8 @@ input {
     font-weight: 500;
     font-size: larger;
     padding: 1.5rem;
-    /* margin-top: 20%; */
+    margin-bottom: 10%;
+    margin-top: 10%;
     font-size: 70%;
     text-transform: uppercase;
     margin-bottom: 2%;
@@ -855,6 +856,19 @@ input {
     background-color: #e3e30b;
     }
 
+#calltoaction {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-bottom: 20%;
+    min-width: fit-content;
+    text-align: center;
+}
 
 #subject {
     max-height: 10vh;

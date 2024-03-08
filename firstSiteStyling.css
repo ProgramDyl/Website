@@ -287,7 +287,7 @@ h1.socialmedia {
 
 .flex-container-aboutme {
     display: flex;
-    height: 30vh;
+    height: 80%;
 }
 
 .headshotborder {
@@ -295,18 +295,18 @@ h1.socialmedia {
     flex-direction: column;
     height: max-content;
     background: seashell;
+    position: relative;
+    height: 63vh;
 }
 
 #headshot {
     border-radius: 5vh;
-    position: center;
-    justify-self: center;
     border: antiquewhite;
-    max-width: 33%;
-    height: auto;
+    max-width: 25vw;
+    max-height: fit-content;
+    position: absolute;
+    top: 10px;
     margin-left: 20%;
-    margin-top: 20%;
-    transform: rotate(-90deg);
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
@@ -319,6 +319,7 @@ h1.socialmedia {
     color: antiquewhite;
     font-weight: 600;
     margin-top: 10vh;
+    position: absolute;    
 }
 
 .full-name {
@@ -458,7 +459,7 @@ color: #818181;
     width: fit-content;
 }
 
-img.carinmaze {
+img.DylMaddy {
     border-radius:45vh;
     height: 15rem;
     margin-bottom: 4rem;

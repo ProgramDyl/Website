@@ -23,9 +23,6 @@ Any advice is welcome!
   
 ## Help
 
-1. I am not using efficient CSS rules to keep my divs clean on the index page. I need to clean up the 'social media' section in particular.
-2. 
-```
-command to run if program contains helper info
-```
+I am not using efficient CSS rules to keep my divs clean on the index page. I need to clean up the 'social media' section in particular. Any 
+help would be appreciated. Feel free to fork it and mess around with what is there if you are so inclined. 
 

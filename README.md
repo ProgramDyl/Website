@@ -12,10 +12,17 @@ Eventually I would like each page to be it's own beautifully rendered page and I
 separate pages that is lol). 
 The CSS is messy and divided into 2 media queries: desktop/mobile. More responsivity is a welcome help from others. 
 
+I am looking to learn frameworks and will likely be porting this site into one of those. I haven't decided between Quarto, React, and Jekyll. 
+
 Any advice is welcome! 
 
 
-### Dependencies
+### Deployed Vers. 
+
+www.dylancdev.com 
+
+
+### Tools
 
 * An IDE (I'm using VSCode) 
 * Chrome Dev Tools
